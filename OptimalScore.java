@@ -6,6 +6,7 @@ public class OptimalScore {
 
     public static void main(String[] args) {
 
+        // Note: the pruned approach requires left / right to be in sorted order
         int[] left = { 2,4,6,8,10,12 };
         int[] right = { 1,3,5,7,9,11 };
         int n = left.length;
